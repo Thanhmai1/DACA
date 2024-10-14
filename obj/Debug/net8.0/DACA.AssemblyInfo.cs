@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DACA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5869b199aa7ee04c599e10f34369402b7afc885")]
 [assembly: System.Reflection.AssemblyProductAttribute("DACA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DACA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
