@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<Students>
+<a href="/students/create" class="btn btn-outline-primary btn-lg m-2 shadow-sm">Create</a>
+
+
+
+<table class="table table-active">
+    <thead>
+        <th>No</th>
+        <th>@Html.DisplayNameFor(m => m.StudentName)</th> 
+        <th></th>
+        <th>Action</th>
+        <th></th>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.StudentName</td>
+                <td><a href="#">Detail</a></td>
+                <td><a href="#">Delete</a></td>
+                <td><a href="/students/edit">Edit</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
